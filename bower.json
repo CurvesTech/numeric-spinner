@@ -1,0 +1,27 @@
+{
+  "name": "numeric-spinner",
+  "authors": [
+    "Mubashar Abbas <mubashir.abbas@outlook.com>"
+  ],
+  "description": "a bootstrap spinner control with up down buttons, an input type=\"number\" replacement for a consistent ui across browserrs.\"",
+  "main": "",
+  "keywords": [
+    "numeric",
+    "spinner",
+    "bootstrap-control",
+    "number",
+    "form-control"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
