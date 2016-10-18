@@ -9,6 +9,7 @@ $(function(){
        '</div>'
     );
 
+    // the up button click event.
     $('.spinner .btn:first-of-type').on('click', function() {
       var btn = $(this);
       var input = btn.closest('.spinner').find('input');
@@ -23,6 +24,8 @@ $(function(){
         btn.next("disabled", true);
       }
     });
+
+    // the down button click event.
     $('.spinner .btn:last-of-type').on('click', function() {
       var btn = $(this);
       var input = btn.closest('.spinner').find('input');

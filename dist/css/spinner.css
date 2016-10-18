@@ -37,3 +37,11 @@
   top: 0;
   left: 4px;
 }
+
+/*this piece of css will allow the spinner to be created for the input type number by hiding the up down spin buttons.*/
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
